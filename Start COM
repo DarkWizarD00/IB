@@ -1,0 +1,15 @@
+Instagram BruteForcer
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -u USERNAME, --username USERNAME
+                        Target Username
+  -w WORD, --word WORD  Words list path
+  -p PROXY, --proxy PROXY
+                        Proxy list path
+  -t THREAD, --thread THREAD
+                        Thread
+  -v, --verbose         Thread
+  -d, --debug           Debug mode
+
+python instabrute.py -u user_test -w words.txt -p proxys.txt -t 4 -d -v
